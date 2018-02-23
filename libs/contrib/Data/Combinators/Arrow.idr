@@ -1,3 +1,7 @@
+module Data.Combinators.Arrow
+
+%default total
+%access public export
 ||| Combinators from Control.Arrow
 
 first : (a -> b) -> (a, c) -> (b, c)
